@@ -1,6 +1,5 @@
 package com.vaibhav.microservices.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;
 
@@ -14,7 +13,6 @@ public class Employee {
 
     private String employeeId;
     private String firstName;
-//    @JsonIgnore
     private String department;
 
 
